@@ -1,43 +1,43 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio.jpeg'
+import IMG1 from '../../assets/portfolio.png'
+import IMG2 from '../../assets/game.png'
+import IMG3 from '../../assets/portfolio.jpeg'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Game',
-    github: 'http://github.com',
-    demo: 'http://dribble.com'
+    title: 'Portfolio Website',
+    github: 'https://github.com/Rajeevkdk/react-portfolio.git',
   },
   {
     id: 2,
-    image: IMG1,
-    title: 'Game2',
-    github: 'http://github.com',
-    demo: 'http://dribble.com'
+    image: IMG2,
+    title: 'Game',
+    github: 'https://github.com/Rajeevkdk/guess-my-number.git',
   },
   {
     id: 3,
-    image: IMG1,
+    image: IMG3,
     title: 'Game2',
     github: 'http://github.com'
   },
   {
     id: 4,
-    image: IMG1,
+    image: IMG3,
     title: 'Game2',
     github: 'http://github.com'
   },
   {
     id: 5,
-    image: IMG1,
+    image: IMG3,
     title: 'Game2',
     github: 'http://github.com'
   },
   {
     id: 6,
-    image: IMG1,
+    image: IMG3,
     title: 'Game2',
     github: 'http://github.com'
   }
